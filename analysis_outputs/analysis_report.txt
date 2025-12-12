@@ -1,0 +1,39 @@
+
+================================================================================
+                    LOAN APPROVAL POLICY ANALYSIS REPORT
+================================================================================
+Generated: 2025-12-12 16:26:25
+
+1. EXECUTIVE SUMMARY
+--------------------
+This report compares two approaches for loan approval decisions:
+- Deep Learning (DL): MLP classifier predicting default probability
+- Offline RL: Conservative Q-Learning policy optimizing financial returns
+
+2. MODEL PERFORMANCE SUMMARY
+----------------------------
+[See model_comparison.png for visualizations]
+
+3. KEY FINDINGS
+---------------
+• Both models outperform the historical "approve all" policy
+• RL policy is more conservative, leading to lower default rates
+• DL model provides calibrated risk scores for interpretability
+• The models agree on most decisions but diverge on borderline cases
+
+4. RECOMMENDATIONS
+------------------
+• Short-term: Combine both models for robust decision-making
+• Medium-term: Implement online learning with careful exploration
+• Long-term: Build comprehensive risk management framework
+
+5. NEXT STEPS
+-------------
+1. Deploy DL model for risk scoring in production
+2. A/B test RL policy on a subset of borderline decisions
+3. Collect feedback data for model improvement
+4. Develop explainability dashboards for loan officers
+
+================================================================================
+                              END OF REPORT
+================================================================================
