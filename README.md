@@ -104,8 +104,8 @@ python main.py --sample-size -1
 - Adam optimizer with learning rate scheduling
 
 **Metrics Reported:**
-- ✅ AUC (Area Under ROC Curve)
-- ✅ F1-Score
+- AUC (Area Under ROC Curve)
+- F1-Score
 
 ### Task 3: Offline RL Agent
 
@@ -193,10 +193,3 @@ epochs = 100
 - [Conservative Q-Learning (CQL)](https://arxiv.org/abs/2006.04779)
 - [d3rlpy Documentation](https://d3rlpy.readthedocs.io/)
 
-## 👤 Author
-
-**Shodh AI Hiring Project**
-
----
-
-*This project demonstrates end-to-end ML/RL skills including data analysis, deep learning, offline reinforcement learning, and synthesis of findings.*
